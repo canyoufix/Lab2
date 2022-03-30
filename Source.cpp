@@ -41,7 +41,7 @@ int main() {
 	puts(str);
 
 	i = 0;
-	int changes = 1;
+	int changes = 0;
 	do {
 		if (changes <= 4) {
 			if (str[i] > 48) {
